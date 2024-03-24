@@ -104,7 +104,10 @@ form{
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------forphone----------------------------------------------------------------------------------------------------------------------------------------- */
-@media (min-width:320px) {
+@media (max-width:320px) {
+    body{
+        background-image: url(images/phn-bg.jpeg);
+    }
     .form-content{
        width: 100%;
        margin-left: -3px;
@@ -117,7 +120,7 @@ form{
 }
 @media (max-width: 768px){
     body{
-       background-image: none;
+       background-image: url(images/phn-bg.jpeg);
        width: auto;
        height: 100%;
        background-size: cover;
