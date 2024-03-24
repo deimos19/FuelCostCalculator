@@ -123,17 +123,27 @@ form{
     }
     .container{
         align-items: center;
+        width: auto;
+        margin: 0%;
+        /* background-color: blueviolet; */
     }
     form{
-        margin-left: auto;
         height: auto;
-        margin-top: 100px;
-
+        /* margin: 25%; */
+        margin-top: 350px;
+        width: 80%;
+        margin-left: 50px;
     }
     form h3{
         font-size: 27px;
     }
-    form input{
+    .form-content input{
         font-size: 21px;
+        width: 250px;
+        height: 80px;
+    }
+    .form-content button{
+        height: 70px;
+        width: 170px;
     }
 } 
