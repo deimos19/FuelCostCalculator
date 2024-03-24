@@ -73,12 +73,16 @@ form{
 .form-content h3{
     color: aliceblue;
 }
+::placeholder{
+    text-align: left;
+}
 .form-content input{
     width: 60%;
     height: 32px;
     border-radius: 10px;
     text-decoration: none;
     background-color: aquamarine;
+    text-align: center;
 }
 .form-content h4{
     color: aliceblue;
@@ -172,11 +176,15 @@ form{
         background-color: rgba(0, 0, 0, 0.321);
         height: auto;
     }
+    ::placeholder{
+        text-align: left;
+    }
     .form-content input{
         font-size: 14px;
         width:150px;
         height: 23px;
         background-color: rgb(169, 223, 204);
+        text-align: center;
     }
     .form-content button{
         height: 30px;
