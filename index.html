@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuelify.</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <h2>Fuelify.</h2>
+          <!-- <ul>
+            <li><a href="#">Fuelify</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul> -->
+        </div>
+    </header>
+    <form>
+        <div class="form-content">
+         <h3>Mileage:</h3>
+         <input type="text" id="txt1" placeholder="in Km/L" required/>
+         <h3>Fuel Price:</h3>
+         <input type="text" id="txt2" placeholder= "in Rupees" required/>
+         <h3>Distance:</h3>
+         <input type="text" id="txt3" placeholder="in Km" required/>
+         <h4>Fuel Cost:</h4>
+         <h2 id="final"></h2>
+         <h6>(in Indian Rupees)</h6>
+
+         <button type="submit" onclick="calc()">Calculate</button>
+        </div> 
+    </form>
+    <script>
+        function calc(){
+            event.preventDefault();
+            var mil = document.getElementById("txt1").value;
+            var fuelp = document.getElementById("txt2").value;
+            var dist = document.getElementById("txt3").value;
+            
+            var tot = parseFloat(dist) / parseFloat(mil);
+            var ans = tot * parseFloat(fuelp);
+
+            document.getElementById("final").innerHTML = ans.toFixed(2);  
+        }
+    </script>
+</body>
+</html>

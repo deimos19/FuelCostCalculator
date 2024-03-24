@@ -1,0 +1,159 @@
+body{
+    background-image: url(images/fuelstation\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:auto;
+}
+header{
+    /* background-color: tomato; */
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+}
+.logo{
+    height: 70px;
+    width: auto;
+    /* background-color: rgba(22, 112, 112, 0.293); */
+    border-radius: 30px;
+    display: flex;
+}
+.logo h2{
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-color: red; */
+    height: auto;
+    width: auto;
+    margin-top: 0px;
+}
+.logo ul{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-left: 900px;
+    margin-top: 23px;
+}
+.logo ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.logo ul li a{
+    color: white;
+    text-decoration: none;
+}
+form{
+    display:grid;
+    width: 50%;
+    align-items: center;
+    /* background-color: red; */
+    height: auto;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.form-content{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.738);
+    text-align: center;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+.form-content h3{
+    color: aliceblue;
+}
+.form-content input{
+    width: auto;
+    height: 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+.form-content h4{
+    color: aliceblue;
+    font-size: 30px;
+}
+.form-content h2{
+    color: aliceblue;
+    font-size: 34px;
+    /* background-color: blue; */
+}
+.form-content button{
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: rgb(80, 161, 156);
+    border-radius: 15px;
+}
+.form-content h6{
+    color: rgb(137, 248, 220);
+    font-size: 14px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------forphone----------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1440px){
+    body{
+       background-image: url(images/phn-bg.jpeg);
+       width: auto;
+       height:auto;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-color: rgb(12, 53, 53);
+       /* margin-top: -100px; */
+    }
+    header{
+        width: 100%;
+    }
+    .logo{
+        height: 200px;
+        width: auto;
+    }
+    .logo h2{
+        font-size: 45px;
+    }
+    .logo ul{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .logo ul li a{
+        font-size: 70px;
+    }
+    form{
+        margin-top: -50px;
+        width: 98%;
+
+    }
+    .form-content h3{
+        font-size: 30px;
+    }
+    .form-content input{
+        height: 50px;
+        width: 300px;
+        font-size: 20px;
+    }
+    ::placeholder{
+       font-size: 20px;
+    }
+    .form-content h4{
+        font-size: 40px;
+    }
+    .form-content button{
+        height: 60px;
+        width: 140px;
+        font-size: 27px;
+    }
+    .form-content h6{
+        font-size: 14px;
+    }
+    .form-content h2{
+        font-size: 50px;
+    }
+} 
