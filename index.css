@@ -3,7 +3,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width:auto;
     position: fixed;
     padding-bottom: 100px;
 }
@@ -104,17 +103,33 @@ form{
 
 @media only screen and (max-width: 1440px){
     body{
-       background-image: url(images/phn-bg.jpeg);
+       background-image: none;
        width: auto;
-       height: auto;
+       height: 100%;
        background-size: cover;
        background-repeat: no-repeat;
        background-position: center;
-       background-color: rgb(0, 0, 0);
+       background-color: rgb(133, 225, 190);
        position:relative;
        
     }
+    .logo h2{
+        font-size: 55px;
+        margin-left: -30px;
+    }
+    .container{
+        align-items: center;
+    }
     form{
         margin-left: auto;
+        height: auto;
+        margin-top: 100px;
+
+    }
+    form h3{
+        font-size: 27px;
+    }
+    form input{
+        font-size: 21px;
     }
 } 
