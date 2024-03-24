@@ -4,6 +4,8 @@ body{
     background-size: cover;
     height: 100%;
     width:auto;
+    position: fixed;
+    padding-bottom: 100px;
 }
 header{
     /* background-color: tomato; */
@@ -48,13 +50,15 @@ header{
 }
 form{
     display:grid;
-    width: 50%;
+    width: 70%;
     align-items: center;
     /* background-color: red; */
     height: auto;
     margin:auto;
     margin-top: 40px;
     margin-bottom: 100px;
+    margin-left: 550px;
+
 }
 .form-content{
     height: auto;
@@ -67,7 +71,7 @@ form{
     color: aliceblue;
 }
 .form-content input{
-    width: auto;
+    width: 60%;
     height: 32px;
     border-radius: 10px;
     text-decoration: none;
@@ -102,58 +106,15 @@ form{
     body{
        background-image: url(images/phn-bg.jpeg);
        width: auto;
-       height:auto;
+       height: auto;
        background-size: cover;
        background-repeat: no-repeat;
        background-position: center;
-       background-color: rgb(12, 53, 53);
-       /* margin-top: -100px; */
-    }
-    header{
-        width: 100%;
-    }
-    .logo{
-        height: 200px;
-        width: auto;
-    }
-    .logo h2{
-        font-size: 45px;
-    }
-    .logo ul{
-        margin-left: 0px;
-        margin-top: 60px;
-    }
-    .logo ul li a{
-        font-size: 70px;
+       background-color: rgb(0, 0, 0);
+       position:relative;
+       
     }
     form{
-        margin-top: -50px;
-        width: 98%;
-
-    }
-    .form-content h3{
-        font-size: 30px;
-    }
-    .form-content input{
-        height: 50px;
-        width: 300px;
-        font-size: 20px;
-    }
-    ::placeholder{
-       font-size: 20px;
-    }
-    .form-content h4{
-        font-size: 40px;
-    }
-    .form-content button{
-        height: 60px;
-        width: 140px;
-        font-size: 27px;
-    }
-    .form-content h6{
-        font-size: 14px;
-    }
-    .form-content h2{
-        font-size: 50px;
+        margin-left: auto;
     }
 } 
