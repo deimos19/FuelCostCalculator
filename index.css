@@ -122,43 +122,67 @@ form{
     body{
        background-image: url(images/phn-bg.jpeg);
        width: auto;
-       height: 100%;
+       height: 1070px;
        background-size: cover;
        background-repeat: no-repeat;
        background-position: center;
        background-color: rgb(52, 158, 118);
        position:relative;
+       align-items: center;
        
     }
     .logo h2{
-        font-size: 55px;
+        font-size: 25px;
         margin-left: -30px;
     }
     .container{
         align-items: center;
-        width: auto;
+        width: 80%;
         margin: 0 auto;
         /* background-color: blueviolet; */
-        height: auto;
-        margin-top: -200px;
+        height: 320px;
+        margin-top: -140px;
+        padding-left: 16px;
+        padding-right: 10px;
     }
     form{
         height: auto;
-        margin: 10%;
+        /* margin: 10%; */
         margin-top: 350px;
-        width: 80%;
+        width: 240px;
         /* background-color: burlywood; */
+        margin-left: 0px;
+        /* padding-left: 40px;
+        padding-right: 40px; */
     }
     form h3{
-        font-size: 27px;
+        font-size: 18px;
+    }
+    .form-content h4{
+        font-size: 23px;
+    }
+    .form-content h6{
+        font-size: 15px;
+        color: aliceblue;
+    }
+    .form-content{
+        height: 400px;
+        width: 240px;
+        /* margin-left: 40px; */
+        background-color: rgba(0, 0, 0, 0.321);
+        height: auto;
     }
     .form-content input{
-        font-size: 21px;
-        width: 250px;
-        height: 80px;
+        font-size: 14px;
+        width:150px;
+        height: 23px;
+        background-color: rgb(169, 223, 204);
     }
     .form-content button{
-        height: 70px;
-        width: 170px;
+        height: 30px;
+        width: 100px;
+        background-color: rgb(169, 223, 204);
+        color: black;
+
     }
 } 
